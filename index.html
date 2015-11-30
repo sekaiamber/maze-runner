@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>maze.js | by sekaiamber</title>
+    <meta name="author" content="sekaiamber(Xu Xiaomeng)" />
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script src="scripts/require.js"></script>
+    <script>
+        // Release
+        // var rconfig = {
+        //     paths: {
+        //         "main": "scripts/maze"
+        //     }
+        // }
+        // Develop
+        var rconfig = {
+            baseUrl: 'data',
+        }
+        require.config(rconfig);
+        require(["main"]);
+    </script>
+    <link rel="stylesheet" href="styles/g.css">
+<!--
+    ==TODO==
+    <link rel="shortcut icon" href="favicon.png" />
+-->
+</head>
+<body>
+    <div id="main"></div>
+    <div id="console"></div>
+</body>
+</html>
