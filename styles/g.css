@@ -1,0 +1,22 @@
+window,
+document,
+html,
+body,
+#main
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#sight
+{
+    position: fixed;
+    height: 7px;
+    width: 7px;
+    background: red;
+    top: calc(50% - 3px);
+    left: calc(50% - 3px);
+}
